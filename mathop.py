@@ -53,9 +53,3 @@ print(math.inf)
 
 # to cut decimal points use this method
 print(math.trunc(23.43))
-
-
-
-
-
-
