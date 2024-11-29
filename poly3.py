@@ -1,3 +1,9 @@
+# setback with this method is 
+# pyhton uses dictionary for storing methods
+# python so every method name stored only once
+# and latest method defined will be replaced 
+# SO THIS METHOD IS NOT CONVINIENT WAY FOR OVERLAODING
+
 class Po:
     def product(self,a, b):
        p = a * b
