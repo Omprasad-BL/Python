@@ -7,7 +7,7 @@ x='1'
 print("type of ",x, type(x))
 
 #complex type
-x=2j
+x=2j 
 print("type of ",x, type(x))
 
 #boolean type
