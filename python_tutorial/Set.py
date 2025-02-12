@@ -35,3 +35,21 @@ print(thisset)
 # to remove all elements use clear
 thisset.clear()
 print(thisset)
+
+# or you can use del keyword
+
+del thisset
+# print(thisset)  # this will give error because set is deleted
+
+# The union() and update() methods joins all items from both sets.
+
+# The intersection() method keeps ONLY the duplicates.
+
+# The difference() method keeps the items from the first set that are not in the other set(s).
+
+# The symmetric_difference() method keeps all items EXCEPT the duplicates.
+
+# The remove() method removes the specified element from the set.
+
+# This method is different from the discard() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.
+
