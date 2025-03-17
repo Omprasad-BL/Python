@@ -37,3 +37,20 @@ numbers=ages
 sorted_numbers = sorted(numbers, reverse=True)
 print(sorted_numbers)  # Output: [9, 5, 4, 3, 2, 1, 1]
 
+#  use of f-strings is to print an identifier name along with the value. This was introduced in Python 3.8.
+
+
+x = 10
+y = 20
+print(f"{x = }, {y = }")
+
+"""
+x = 10, y = 20
+"""
+
+password = "ABCabc123"
+print(password.isalnum())
+
+"""
+True
+"""
