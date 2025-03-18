@@ -54,3 +54,43 @@ print(password.isalnum())
 """
 True
 """
+
+
+# this dictionary also do same thing as passing arguments whe you pass it as **kwargs
+# means keyword arguments
+dictionary = {"a": 1, "b": 2}
+
+def someFunction(a, b):
+    print(a + b)
+    return
+
+# these do the same thing:
+someFunction(**dictionary)
+someFunction(a=1, b=2)
+
+
+x = [1, 2, 3]
+y = map(lambda x : x + 1 , x)
+print(list(y))
+
+
+# python class
+class someClass:
+    def __repr__(self):
+        return "<some description here>"
+
+someInstance = someClass()
+
+# prints <some description here>
+print(someInstance)
+
+
+
+# python now let's you have standalone virtual environment for each project
+# SO YOU DON'T GET ANY VERSION CONFLICT FOR EACH PROJECT 
+
+
+# python -m venv my-project
+# source my-project/bin/activate
+# pip install all-the-modules
+# Now you can have standalone versions and installations of Python running on the same machine. Sorted!
